@@ -1,3 +1,8 @@
+---
+layout: default
+title:  寫下你的第一行 Javascript 程式碼：Repl.it
+permalink: your-first-line-of-js
+---
 # 寫下你的第一行 Javascript 程式碼：Repl.it
 
 以傳統的開發流程而言，要怎麼開始「寫」程式呢？

@@ -1,3 +1,8 @@
+---
+layout: default
+title:  JavaScript 免費自學資源
+permalink: js-free-self-study-resources
+---
 # JavaScript 免費自學資源
 
 ## [W3Schools：JavaScript Tutorial](https://www.w3schools.com/js/default.asp)
