@@ -1,0 +1,4 @@
+﻿運算子,意義,Example,回傳結果
+&&,「而且」；如果前後的 value 都是 true，則回傳 true,true && truetrue && falsefalse && false,truefalsefalse
+||,「或者」；只要有一邊為 true，則為 true,true || truetrue || falsefalse || false,truetruefalse
+!,「非」，將後面接的 boolean 轉成相反的值,!true !false,falsetrue
