@@ -1,3 +1,8 @@
+---
+layout: default
+title:  JavaScript 入門指南
+permalink: getting-started
+---
 # JavaScript 入門指南
 
 JavaScript 是最廣泛被使用的網頁開發程式語言，這篇入門指南帶你從認識 JavaScript 開始，了解 JavaScript 能做到什麼，學習入門的核心概念。
@@ -6,15 +11,15 @@ JavaScript 是最廣泛被使用的網頁開發程式語言，這篇入門指南
 
 ---
 
-[JavaScript 的前世今生](JavaScript%20%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97%206f94bae62345407a8e1dbbaa1f2f31f0/JavaScript%20%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F%2033585a91616345af99f448b18a75a4b7.md)
+[JavaScript 的前世今生](past-and-present)
 
 ## JavaScript 可以做什麼
 
 ---
 
-[JavaScript 的用途 ](JavaScript%20%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97%206f94bae62345407a8e1dbbaa1f2f31f0/JavaScript%20%E7%9A%84%E7%94%A8%E9%80%94%200c3ebf55561744ffa9de928c1fb16e00.md)
+[JavaScript 的用途 ](the-purpose-of-js)
 
-[為什麼要學 JavaScript ](JavaScript%20%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97%206f94bae62345407a8e1dbbaa1f2f31f0/%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E5%AD%B8%20JavaScript%209ec5bfdf88604afd9ea1050c66c3d85b.md)
+[為什麼要學 JavaScript ](why-js)
 
 ## 為什麼要學 JavaScript
 
@@ -24,13 +29,13 @@ JavaScript 是最廣泛被使用的網頁開發程式語言，這篇入門指南
 
 ---
 
-[JavaScript 免費自學資源 ](JavaScript%20%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97%206f94bae62345407a8e1dbbaa1f2f31f0/JavaScript%20%E5%85%8D%E8%B2%BB%E8%87%AA%E5%AD%B8%E8%B3%87%E6%BA%90%2010e91ba8175944e78b35230047e2201e.md)
+[JavaScript 免費自學資源 ](js-free-self-study-resources)
 
 ## 開發環境
 
 ---
 
-[寫下你的第一行 Javascript 程式碼：Repl.it](JavaScript%20%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97%206f94bae62345407a8e1dbbaa1f2f31f0/%E5%AF%AB%E4%B8%8B%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E8%A1%8C%20Javascript%20%E7%A8%8B%E5%BC%8F%E7%A2%BC%EF%BC%9ARepl%20it%200b42355ebd2148c0819329cf53c5afc4.md)
+[寫下你的第一行 Javascript 程式碼：Repl.it](your-first-line-of-js)
 
 ## JavaScript 入門核心概念
 

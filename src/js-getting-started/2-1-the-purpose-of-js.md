@@ -1,3 +1,8 @@
+---
+layout: default
+title:  JavaScript 的用途
+permalink: the-purpose-of-js
+---
 # JavaScript 的用途
 
 JavaScript 不僅能夠作用在前端，隨著 Node.js 的問世， JavaScript 這個為了網頁而生的語言也可以撰寫後端伺服器上的應用程式。

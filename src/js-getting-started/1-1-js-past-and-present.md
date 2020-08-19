@@ -1,3 +1,8 @@
+---
+layout: default
+title:  JavaScript 的前世今
+permalink: past-and-present
+---
 # JavaScript 的前世今生
 
 # JavaScript 是什麼？
