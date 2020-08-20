@@ -12,39 +12,39 @@ JavaScript 是最廣泛被使用的網頁開發程式語言，這篇入門指南
 
 ---
 
-[JavaScript 的前世今生](past-and-present)
+[JavaScript 的前世今生](past-and-present.html)
 
 ## JavaScript 可以做什麼
 
 ---
 
-[JavaScript 的用途](the-purpose-of-js)
+[JavaScript 的用途](the-purpose-of-js.html)
 
 ## 為什麼要學 JavaScript
 
 ---
 
-[為什麼要學 JavaScript](why-js)
+[為什麼要學 JavaScript](why-learn-js.html)
 
 ## 學習 JavaScript 有哪些免費自學資源
 
 ---
 
-[JavaScript 免費自學資源](js-free-self-study-resources)
+[JavaScript 免費自學資源](js-free-self-study-resources.html)
 
 ## 開發環境
 
 ---
 
-[寫下你的第一行 Javascript 程式碼：Repl.it](your-first-line-of-js)
+[寫下你的第一行 Javascript 程式碼：Repl.it](your-first-line-of-js.html)
 
 ## JavaScript 入門核心概念
 
 ---
 
-[Variable & Value 變數與值](variable-and-value)
+[Variable & Value 變數與值](variable-and-value.html)
 
-[Data Type  資料型別](date-type)
+[Data Type  資料型別](date-type.html)
 
 [Operator 運算子](JavaScript%20%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97%206f94bae62345407a8e1dbbaa1f2f31f0/Operator%20%E9%81%8B%E7%AE%97%E5%AD%90%20d6f7d2543f394c52aa61d526598c2b3f.md)
 

@@ -2,7 +2,7 @@
 layout: default
 title:  為什麼要學 JavaScript
 nav_order: 4
-permalink: why-learn-js
+permalink: why-learn-js.html
 ---
 # 為什麼要學 JavaScript
 

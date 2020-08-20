@@ -3,7 +3,7 @@ layout: default
 title: Data Type 資料型別
 parent: JavaScript 入門核心概念
 nav_order: 2
-permalink: date-type
+permalink: date-type.html
 ---
 # Data Type  資料型別
 

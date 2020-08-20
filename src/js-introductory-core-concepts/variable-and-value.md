@@ -3,7 +3,7 @@ layout: default
 title: Variable & Value 變數與值
 parent: JavaScript 入門核心概念
 nav_order: 1
-permalink: variable-and-value
+permalink: variable-and-value.html
 ---
 # Variable & Value 變數與值
 

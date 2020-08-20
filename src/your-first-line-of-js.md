@@ -2,7 +2,7 @@
 layout: default
 title:  寫下你的第一行 Javascript 程式碼：Repl.it
 nav_order: 6
-permalink: your-first-line-of-js
+permalink: your-first-line-of-js.html
 ---
 # 寫下你的第一行 Javascript 程式碼：Repl.it
 

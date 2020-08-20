@@ -2,7 +2,7 @@
 layout: default
 title:  JavaScript 免費自學資源
 nav_order: 5
-permalink: js-free-self-study-resources
+permalink: js-free-self-study-resources.html
 ---
 # JavaScript 免費自學資源
 

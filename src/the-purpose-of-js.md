@@ -2,7 +2,7 @@
 layout: default
 title:  JavaScript 的用途
 nav_order: 3
-permalink: the-purpose-of-js
+permalink: the-purpose-of-js.html
 ---
 # JavaScript 的用途
 
