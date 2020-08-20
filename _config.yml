@@ -32,6 +32,14 @@ github_username:  jekyll
 # Build settings
 # theme: minima
 theme: just-the-docs
+
+logo: https://lighthouse.alphacamp.co/images/logo-simple.jpg
+
+aux_links:
+  "Source Code on GitHub":
+    - "https://github.com/alphacamp/javascript-book"
+footer_content: "Copyright &copy; 2020 ALPHACamp."
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
