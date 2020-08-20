@@ -14,7 +14,21 @@ permalink: data-type.html
 
 依語言的性質 data type and structure 的設計會有差異。在 JavaScript 的 ES6 標準裡，一共定義了以下 7 種資料型別 (data type)：
 
-[Untitled](Data%20Type%20%E8%B3%87%E6%96%99%E5%9E%8B%E5%88%A5%20896b74e511eb443fa73caa29f25eac27/Untitled%20Database%20a3885edf562648d98b0693a891159c00.csv)
+<table>
+  {% for row in site.data.data-type.data-type %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
 
 上述中，前六個被稱為「基本型別 (primitive type)」，與物件型別做區分。
 

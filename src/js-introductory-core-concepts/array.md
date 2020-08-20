@@ -13,7 +13,21 @@ permalink: array.html
 
 我們要介紹如何用陣列（array）與物件（object）來管理資料。先來認識這兩種資料結構的不同：
 
-[Untitled](Array%20%E9%99%A3%E5%88%97%20a8df4579bcd745a5ac39259f6420eebb/Untitled%20Database%208dd2b00f0e144af29282fb5fd618ed3f.csv)
+<table>
+  {% for row in site.data.array.array %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
 
 在 JavaScript 裡，使用 index 的資料結構叫陣列，使用 key-value pair 的資料結構叫物件。在這個單元裡，我們會先介紹陣列，到下個單元再介紹物件。
 
@@ -44,7 +58,7 @@ let myFriends = ['派大星', '章魚哥', '小蝸', '蟹老闆', '珊迪']myFri
 
 這個 `myFriends` 的陣列，就增加了 `皮老闆` 的名字：
 
-[https://lh5.googleusercontent.com/WlVef7XTzQb428pMf4MfSf-gDbZaSR4hfOV_rbjYBzXVsKVKkDIRGaw-TuGiA7XQLADu6-0sfrCOVke2lGgo5S6iWIIvPAfUWkFHIiMbfNYi1n5wZSporfV54QxF1HDrAeim-Py4](https://lh5.googleusercontent.com/WlVef7XTzQb428pMf4MfSf-gDbZaSR4hfOV_rbjYBzXVsKVKkDIRGaw-TuGiA7XQLADu6-0sfrCOVke2lGgo5S6iWIIvPAfUWkFHIiMbfNYi1n5wZSporfV54QxF1HDrAeim-Py4)
+![https://lh5.googleusercontent.com/WlVef7XTzQb428pMf4MfSf-gDbZaSR4hfOV_rbjYBzXVsKVKkDIRGaw-TuGiA7XQLADu6-0sfrCOVke2lGgo5S6iWIIvPAfUWkFHIiMbfNYi1n5wZSporfV54QxF1HDrAeim-Py4](https://lh5.googleusercontent.com/WlVef7XTzQb428pMf4MfSf-gDbZaSR4hfOV_rbjYBzXVsKVKkDIRGaw-TuGiA7XQLADu6-0sfrCOVke2lGgo5S6iWIIvPAfUWkFHIiMbfNYi1n5wZSporfV54QxF1HDrAeim-Py4)
 
 如果想要一次增加兩個人，則需要寫成：
 
@@ -54,7 +68,7 @@ let myFriends = ['派大星', '章魚哥', '小蝸', '蟹老闆', '珊迪']myFri
 
 請注意人名是字串，記得加上單引號：
 
-[https://lh4.googleusercontent.com/sJ6XAcRa0AC1_ovLrJhynE0wPXdrdaOd-3bxfuArzJE_y6NnbM5l2dOHL6N-qlUYYL7-BonfQ0INiDi26mjyzBPU6oR_I7Tgi0TagJNcJM-FdNSlk28eXaWWJwa0cBvBZrMiwajW](https://lh4.googleusercontent.com/sJ6XAcRa0AC1_ovLrJhynE0wPXdrdaOd-3bxfuArzJE_y6NnbM5l2dOHL6N-qlUYYL7-BonfQ0INiDi26mjyzBPU6oR_I7Tgi0TagJNcJM-FdNSlk28eXaWWJwa0cBvBZrMiwajW)
+![https://lh4.googleusercontent.com/sJ6XAcRa0AC1_ovLrJhynE0wPXdrdaOd-3bxfuArzJE_y6NnbM5l2dOHL6N-qlUYYL7-BonfQ0INiDi26mjyzBPU6oR_I7Tgi0TagJNcJM-FdNSlk28eXaWWJwa0cBvBZrMiwajW](https://lh4.googleusercontent.com/sJ6XAcRa0AC1_ovLrJhynE0wPXdrdaOd-3bxfuArzJE_y6NnbM5l2dOHL6N-qlUYYL7-BonfQ0INiDi26mjyzBPU6oR_I7Tgi0TagJNcJM-FdNSlk28eXaWWJwa0cBvBZrMiwajW)
 
 ### **用 concat 合併陣列**
 
@@ -68,7 +82,7 @@ let myFriends = ['派大星', '章魚哥', '小蝸', '蟹老闆', '珊迪']let m
 
 仔細觀察下圖，`myFriends` 的內容並沒有改變：
 
-[https://lh5.googleusercontent.com/waZUp1CG_hCWyTplZ0-ylWBCrz8s8S9CyZLshbGy5Tq1Obg_Jju_TcfS-8rj3ZWQDdUVguAaSWoUxs0J-fhKLCsTmfL6n4_RGsDIV5Gt6h6RSkmsbxh1e4krx_zdMzHkggLwIRnw](https://lh5.googleusercontent.com/waZUp1CG_hCWyTplZ0-ylWBCrz8s8S9CyZLshbGy5Tq1Obg_Jju_TcfS-8rj3ZWQDdUVguAaSWoUxs0J-fhKLCsTmfL6n4_RGsDIV5Gt6h6RSkmsbxh1e4krx_zdMzHkggLwIRnw)
+![https://lh5.googleusercontent.com/waZUp1CG_hCWyTplZ0-ylWBCrz8s8S9CyZLshbGy5Tq1Obg_Jju_TcfS-8rj3ZWQDdUVguAaSWoUxs0J-fhKLCsTmfL6n4_RGsDIV5Gt6h6RSkmsbxh1e4krx_zdMzHkggLwIRnw](https://lh5.googleusercontent.com/waZUp1CG_hCWyTplZ0-ylWBCrz8s8S9CyZLshbGy5Tq1Obg_Jju_TcfS-8rj3ZWQDdUVguAaSWoUxs0J-fhKLCsTmfL6n4_RGsDIV5Gt6h6RSkmsbxh1e4krx_zdMzHkggLwIRnw)
 
 ### **用 pop 移除元素**
 
@@ -80,10 +94,24 @@ let myFriends = ['派大星', '章魚哥', '小蝸', '蟹老闆', '珊迪']myFri
 
 `.pop()` 會直接移除陣列中的最後一個元素，你會得到：
 
-[https://lh5.googleusercontent.com/_ErzX183FHweySB5N_Z9wOV5jm-w6va9a8awC2tsZlZGO-0bElihc5wZb4oc6OEhYOtsZSqG27n8i-AUp5Tcla2h_TrZTw-F08wezDq1HzePwwHvODu08Nw95LcsoOwy05VEpE22](https://lh5.googleusercontent.com/_ErzX183FHweySB5N_Z9wOV5jm-w6va9a8awC2tsZlZGO-0bElihc5wZb4oc6OEhYOtsZSqG27n8i-AUp5Tcla2h_TrZTw-F08wezDq1HzePwwHvODu08Nw95LcsoOwy05VEpE22)
+![https://lh5.googleusercontent.com/_ErzX183FHweySB5N_Z9wOV5jm-w6va9a8awC2tsZlZGO-0bElihc5wZb4oc6OEhYOtsZSqG27n8i-AUp5Tcla2h_TrZTw-F08wezDq1HzePwwHvODu08Nw95LcsoOwy05VEpE22](https://lh5.googleusercontent.com/_ErzX183FHweySB5N_Z9wOV5jm-w6va9a8awC2tsZlZGO-0bElihc5wZb4oc6OEhYOtsZSqG27n8i-AUp5Tcla2h_TrZTw-F08wezDq1HzePwwHvODu08Nw95LcsoOwy05VEpE22)
 
 ### **常見陣列方法**
 
 陣列可以用來做非常多的事情。上面是其中一些陣列方法的舉例，整理如下表。未來遇到需要使用的情景，或是想要查找新方法時，可以透過這個表格，找到適合搜尋的關鍵字：
 
-[Untitled](Array%20%E9%99%A3%E5%88%97%20a8df4579bcd745a5ac39259f6420eebb/Untitled%20Database%2086d2dc11d2124b908063ff96eec17ef4.csv)
+<table>
+  {% for row in site.data.array.array_methods %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
