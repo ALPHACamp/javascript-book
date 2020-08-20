@@ -44,7 +44,7 @@ JavaScript 是最廣泛被使用的網頁開發程式語言，這篇入門指南
 
 [Variable & Value 變數與值](variable-and-value.html)
 
-[Data Type  資料型別](date-type.html)
+[Data Type  資料型別](data-type.html)
 
 [Operator 運算子](operator.html)
 
