@@ -19,21 +19,16 @@
 # in the templates via {{ site.myvariable }}.
 
 title: JavaScript 入門指南
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://javascript.alphacamp.co" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+email: taiwan@alphacamp.co
+description: ALPHA Camp 的使命是「幫助人們發展有意義、有價值的職涯」。自 2014 年以來，我們以新加坡和台灣為教學據點，培訓超過 5000 名學員。校友遍及台灣、新加坡、中國、以及全球的科技新創。
+baseurl: ""
+url: "https://javascript.alphacamp.co"
+twitter_username: ALPHACampSchool
+github_username:  alphacamp
 
 # Build settings
 # theme: minima
 theme: just-the-docs
-
-logo: https://lighthouse.alphacamp.co/images/logo-simple.jpg
 
 aux_links:
   "Source Code on GitHub":
