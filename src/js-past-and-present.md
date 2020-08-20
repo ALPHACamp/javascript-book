@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  JavaScript 的前世今
+nav_order: 2
 permalink: past-and-present
 ---
 # JavaScript 的前世今生

@@ -1,7 +1,8 @@
 ---
 layout: default
 title:  JavaScript 入門指南
-permalink: getting-started
+nav_order: 1
+permalink: /
 ---
 # JavaScript 入門指南
 
@@ -17,19 +18,19 @@ JavaScript 是最廣泛被使用的網頁開發程式語言，這篇入門指南
 
 ---
 
-[JavaScript 的用途 ](the-purpose-of-js)
-
-[為什麼要學 JavaScript ](why-js)
+[JavaScript 的用途](the-purpose-of-js)
 
 ## 為什麼要學 JavaScript
 
 ---
 
+[為什麼要學 JavaScript](why-js)
+
 ## 學習 JavaScript 有哪些免費自學資源
 
 ---
 
-[JavaScript 免費自學資源 ](js-free-self-study-resources)
+[JavaScript 免費自學資源](js-free-self-study-resources)
 
 ## 開發環境
 

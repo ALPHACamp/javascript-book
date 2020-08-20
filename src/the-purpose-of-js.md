@@ -1,6 +1,7 @@
 ---
 layout: default
 title:  JavaScript 的用途
+nav_order: 3
 permalink: the-purpose-of-js
 ---
 # JavaScript 的用途
