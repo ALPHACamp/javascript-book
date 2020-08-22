@@ -30,6 +30,8 @@ github_username:  alphacamp
 # theme: minima
 theme: just-the-docs
 
+ga_tracking: UA-44443675-10
+
 aux_links:
   "Source Code on GitHub":
     - "https://github.com/alphacamp/javascript-book"
