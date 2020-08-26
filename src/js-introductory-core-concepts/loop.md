@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Loop 迴圈
+title: Loop 迴圈 - JavaScript 教學｜ALPHA Camp
 parent: JavaScript 入門核心概念
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/14040/loop.jpg
+author: ALPHA Camp
 nav_order: 7
 permalink: loop.html
 ---
-# Loop 迴圈
-
 # Loop 迴圈
 
 迴圈的用途是**重覆執行程式碼**，只要條件滿足，就會執行特定的動作。迴圈是程式能將人工流程自動化的關鍵工具。
@@ -16,7 +16,7 @@ permalink: loop.html
 - while：只要條件有效，就持續執行
 - for：控制執行次數
 
-# 只要條件有效，就持續執行：While 迴圈
+##  只要條件有效，就持續執行：While 迴圈
 
 一個典型的 while 迴圈如下：
 
@@ -40,7 +40,7 @@ console.log('Finished!')
 - **條件**：在 `( )` 裡面定義條件，只要條件表達式 (expression) 回傳 true，就會執行 `{}` 裡的程序；
 - **執行程序**：將你希望重複的動作定義在 `{ }`之中。
 
-# **無限迴圈 (infinite loop)**
+##  **無限迴圈 (infinite loop)**
 
 由於 while 迴圈依賴條件式運行，只要條件有效，就會持續執行，所以要小心寫出無限循環的迴圈。例如：
 
@@ -56,7 +56,7 @@ while (true) {
 
 你會需要把瀏覽器關掉，才能跳脫這個窘境。體驗過這種當機之後，你應該能體會為什麼我們要說「小心無限迴圈」了吧！
 
-# 控制執行次數：for 迴圈
+##  控制執行次數：for 迴圈
 
 不同於 while 迴圈以條件是否為 true 為旗標，for 迴圈會指定明確的執行次數，例如：
 
@@ -84,7 +84,7 @@ console.log('Finished!')
 
 - **執行程序**：將你希望重複的動作定義在 `{ }`之中。
 
-# **For 迴圈與陣列**
+##  **For 迴圈與陣列**
 
 陣列常常會和 for 迴圈搭配使用，讓我們來練習看看。
 
@@ -120,7 +120,7 @@ for (let x = weekDays.length - 1; x >= 0 ; x--) {
 
 ![https://assets-lighthouse.alphacamp.co/uploads/image/file/4613/image2.png](https://assets-lighthouse.alphacamp.co/uploads/image/file/4613/image2.png)
 
-# 跳脫迴圈：break
+##  跳脫迴圈：break
 
 偶爾會遇到需要強制脫離迴圈的情境，這時候可以使用 `break`。例如這邊有一份食材清單，你要寫出一支程式來印出這份食材清單：
 
