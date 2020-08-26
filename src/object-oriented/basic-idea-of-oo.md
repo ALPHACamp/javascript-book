@@ -1,7 +1,9 @@
 ---
 layout: default
-title: 物件導向基本觀念
+title: 物件導向基本觀念 ｜ALPHA Camp
+description: JavaScript 教學：物件導向基本觀念 
 parent: JavaScript 物件導向
+author: ALPHA Camp
 nav_order: 1
 permalink: basic-idea-of-oo.html
 ---
