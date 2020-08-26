@@ -1,7 +1,9 @@
 ---
 layout: default
-title: 建構物件範本：Constructor Function
+title: 建構物件範本：Constructor Function ｜ALPHA Camp
+description: JavaScript 教學：建構物件範本：Constructor Function
 parent: JavaScript 物件導向
+author: ALPHA Camp
 nav_order: 4
 permalink: constructor-function.html
 ---
@@ -9,7 +11,7 @@ permalink: constructor-function.html
 
 我們可以使用建構式函式 (constructor function) 來快速產生許多相同屬性或方法的物件。
 
-# 什麼是 Constructor Function？
+## 什麼是 Constructor Function？
 
 你可以把建構式函式 (constructor function) 想像成「餅乾壓模器」，若在製作餅乾的過程中使用「壓模機」，就可以快速做出形狀類以的餅乾。同理，constructor function 可以快速地產生結構相似的物件。
 
@@ -19,9 +21,9 @@ permalink: constructor-function.html
 
 因此，constructor function 就是用來創造物件的函式，下文有時會簡稱 constructor。
 
-# 用 Constructor Function 創造物件
+## 用 Constructor Function 創造物件
 
-# **定義 Constructor Function**
+## **定義 Constructor Function**
 
 現在讓我們用 constructor function 來建立一個手機範本：
 
@@ -42,7 +44,7 @@ function SmartPhone (name, price, features) {
 - 函式名稱使用大寫，以方便一看就知道這個函式是個 constructor。(使用小寫不會出錯，但不符合慣例)
 - 建構式函式不能用 `return` 指定要回傳其他內容，如果加上 `return`，就只會回傳指定內容，而不會回傳一個新物件。
 
-# **new**
+## **new**
 
 接著讓我們運用定義好的 `SmartPhone` 函式來建立物件，請在呼叫函式時加上 `new`：
 
@@ -59,7 +61,7 @@ let alphaPhoneZ = new SmartPhone('alphaPhoneZ', 23900, ['IP47', 'high screen res
 
 由於 constructor 裡定義的物件範本是抽象的手機，而物件實例是具體的手機，為了區分，由建構式 (constructor) 建立的物件會被稱為「**實例 (instance)**」；在這裡，`alphaPhoneX`, `alphaPhoneY`, `alphaPhoneZ` 都是由 `SmartPhone` 建立的**實例 (instance)** 。
 
-# 觀察 Console 裡的資訊
+## 觀察 Console 裡的資訊
 
 讓我們用 `console.log(alphaPhoneX)` 來觀察看看 console 裡的訊息：
 
@@ -77,7 +79,7 @@ let alphaPhoneZ = new SmartPhone('alphaPhoneZ', 23900, ['IP47', 'high screen res
 console.log(alphaPhoneX.constructor.name)        // 'SmartPhone'
 ```
 
-# 關鍵字 new 到底做了什麼事？
+## 關鍵字 new 到底做了什麼事？
 
 瞭解了建構式函式的用法之後，讓我們回頭來看一下過程中發生了什麼事？以這段程式碼為例，在呼叫建構式函式 `SmartPhone()` 之前，我們使用了 `new` 這個關鍵字：
 
@@ -131,7 +133,7 @@ let alphaPhoneX = SmartPhone('alphaPhoneX', 14999, ['long battery life', 'AI cam
 
 因此，大寫開頭的命名，可以幫助我們區分在呼叫 constructor function 時，前面理應加上 `new` 關鍵字。
 
-# 盡可能不要把方法寫在建構式函式中
+## 盡可能不要把方法寫在建構式函式中
 
 在上面的例子中，為了方便展示，我們直接把方法 `this.showPhoneInfo` 寫在建構式函式中，但一般來說，我們不會這樣做，因為每次當你 new 一個新物件時，物件裡都會攜帶一個新的 function，這個 function 會佔用新的記憶體空間，但明明都是在做一樣的事。
 
