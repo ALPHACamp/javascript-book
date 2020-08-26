@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Variable & Value 變數與值
+title: Variable & Value 變數與值- JavaScript 教學｜ALPHA Camp
 parent: JavaScript 入門核心概念
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/14031/javascript_value_variable.jpg
+author: ALPHA Camp
 nav_order: 1
 permalink: variable-and-value.html
 ---
-# Variable & Value 變數與值
-
 # Variable & Value 變數與值
 
 實際踏進了 JavaScript 語言的領域，接下來，你會透過幾個重要的元素，逐步認識它的基本語法。
@@ -47,7 +47,7 @@ let myBirthday = '1986/07/14'
 
 等單詞的用法與意義，它們分別代表的是對變數的宣告（declare）、指派（assign）與命名慣例（naming convention）等重要主題。
 
-# 宣告
+## 宣告
 
 在 JavaScript 中，你需要運用特殊的關鍵字來宣告變數（可變動）與常數（不可變動），在本課程中採用 ES6 標準，因此，我們會使用 `let` 來宣告可變數，並使用 `const` 宣告常數：
 
@@ -84,7 +84,7 @@ console.log('我的生日變成了', myBirthday)
 
 這正是變數的有趣與重要之處。當今天是派大星的生日，你想要在派大星登入你的網站時，客製化一個特別的生日招呼訊息，就可以透過變數來呈現這個動態結果。
 
-# **宣告常數**
+## **宣告常數**
 
 與變數相反，當我們使用 `const` 來宣告時，我們預期這組資料不能被改變，也就是常數（constant）的概念。
 
@@ -110,7 +110,7 @@ console.log('我的生日變成了', myBirthday)
 
 因此，在**實務上的原則是：除非有預期要改動，否則就用 const 宣告。**
 
-# **賦值**
+## **賦值**
 
 前面說過，變數與資料（物件）間是指派（assign）的關係。延續前面的例子，我們使用 `let` 關鍵字，宣告變數 ‘myBirthday’，並用 `=` 指派了資料到這個變數裡：
 
@@ -119,17 +119,17 @@ let myBirthday = '1986/07/14';
 
 ```
 
-# **取值**
+## **取值**
 
 而 `console.log` 則是「取值」的意思，在主控臺中印出結果：
 
 ![https://assets-lighthouse.alphacamp.co/uploads/image/file/8655/ExportedContentImage_04.png](https://assets-lighthouse.alphacamp.co/uploads/image/file/8655/ExportedContentImage_04.png)
 
-# 慣例
+## 慣例
 
 最後，你需要開始注意撰寫 JavaScript 的慣例。我們剛才練習了「宣告變數」的動作——這在不同程式語言中也許大同小異，但像是使用 `let/const` 宣告、使用 `=` 來為變數賦值等，這裡所使用的關鍵字或方法就會不盡相同。
 
-# **命名**
+## **命名**
 
 在 JavaScript 中，為變數命名時，需注意以下幾點：
 
