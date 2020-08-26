@@ -1,6 +1,8 @@
 ---
 layout: default
 title:  JavaScript 與開發者社群
+description: Web dev 或是 coding 這件事情，要透過什麼「環境」才能進步？在你還沒成為真正的工程師之前，許多的開發者社群或聚會便是你最好的選擇。這篇整理常見的科技與開發者社群
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/14025/js_communities.png
 nav_order: 10
 permalink: js-communities.html
 ---
@@ -12,7 +14,7 @@ Web dev 或是 coding 這件事情，要透過什麼「環境」才能進步？�
 
 所謂的科技社群，由大至小，可以有像開發者年會等等一年一次的大拜拜；有 Women Who Code 這種持續舉辦不同程式開發相關的講座或 meet up ；也有不同社團成員自主發起的小型 meetup，以交流和認識朋友為主；或是大家最熟悉地在社群論壇留言與交流意見。
 
-# **常見的科技相關與開發者社群**
+## **常見的科技相關與開發者社群**
 
 ### JavaScript, Ruby 語言學習社群
 
