@@ -1,6 +1,8 @@
 ---
 layout: default
-title:  JavaScript 的用途
+title: JavaScript 用途，看範例 JS 能做到什麼
+description: JavaScript 不僅能夠作用在前端，隨著 Node.js 的問世， JavaScript 這個為了網頁而生的語言也可以撰寫後端伺服器上的應用程式。
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/14028/js_usage.jpg
 nav_order: 3
 permalink: the-purpose-of-js.html
 ---
@@ -10,7 +12,7 @@ JavaScript 不僅能夠作用在前端，隨著 Node.js 的問世， JavaScript 
 
 另外，JavaScript 不止用於開發網頁，框架如 React Native 就允許開發者用 JavaScript 開發 Android 和 iOS 的 mobile app；而 electron js 則可以用來開發 window 和 macOS 的應用程式。
 
-# JavaScript 可以做到什麼？
+## JavaScript 可以做到什麼？
 
 讓我們一起來看看 JavaScript 可以做出哪些有趣的互動與作品：
 
@@ -44,7 +46,7 @@ JavaScript 不僅能夠作用在前端，隨著 Node.js 的問世， JavaScript 
 
 最後再舉兩個日常生活中常見的功能，也是用 JavaScript 來實現的：
 
-# 即時檢查名稱功能
+## 即時檢查名稱功能
 
 我們在網站上註冊新帳號時，常會需要確認輸入的名稱是否已經被他人使用過。
 
@@ -52,7 +54,7 @@ JavaScript 不僅能夠作用在前端，隨著 Node.js 的問世， JavaScript 
 
 ![https://assets-lighthouse.alphacamp.co/uploads/image/file/4557/image6.gif](https://assets-lighthouse.alphacamp.co/uploads/image/file/4557/image6.gif)
 
-# Single Page Application
+## Single Page Application
 
 你是否曾經留意過，使用 Gmail 點擊「撰寫 (Compose)」 時，我們可以在不刷新畫面的情況下，在右下角展開一個新視窗撰寫新郵件，完全沒有換頁。全部的動作都是在「同一個頁面」上面發生的，所以你載入的檔案從頭到尾就只有一個 index.html，完全沒有換過。
 
