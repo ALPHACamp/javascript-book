@@ -1,7 +1,9 @@
 ---
 layout: default
-title: 原型繼承與原型鏈
+title: 原型繼承與原型鏈 ｜ALPHA Camp
+description: JavaScript 教學：原型繼承與原型鏈
 parent: JavaScript 物件導向
+author: ALPHA Camp
 nav_order: 3
 permalink: prototype-prototype-chain.html
 ---
@@ -46,7 +48,7 @@ name.split('a')               // ["Alph", "PhoneX"]
 
 這就是 JavaScript 裡的原型繼承，雖然有一些陌生的術語，但**核心目的是「取得另一個物件的屬性與方法」**，如此一來，你才能應用物件導向程式設計，把不同物件間共用的屬性與方法封裝到上層的範本裡。
 
-# 什麼是原型？
+## 什麼是原型？
 
 每一個透過建構式函式產生的物件，都會攜帶一個原型物件，你可以把它想像成一個工具包，只要加入到這個工具包裡的屬性與方法，就能透過原型鏈來共享。
 
@@ -56,7 +58,7 @@ name.split('a')               // ["Alph", "PhoneX"]
 
 這裡看到的清單，是 `name` 的原型物件裡所有可用的屬性與方法，當你呼叫這些方法時，JavaScript 會透過原型鏈查找到可用的函式。
 
-# 在原型鏈中尋找屬性與方法
+## 在原型鏈中尋找屬性與方法
 
 接著讓我們看看呼叫方法時，實際的過程。例如當我們調用 `name.toLowerCase()` 時，JavaScript 會發生以下程式：
 
@@ -68,9 +70,9 @@ name.split('a')               // ["Alph", "PhoneX"]
 
 ![https://assets-lighthouse.alphacamp.co/uploads/image/file/5227/ExportedContentImage_02.png](https://assets-lighthouse.alphacamp.co/uploads/image/file/5227/ExportedContentImage_02.png)
 
-# 查看原型鏈裡的資訊
+## 查看原型鏈裡的資訊
 
-# **查看某物件的原型：Object.getPrototypeOf()**
+## **查看某物件的原型：Object.getPrototypeOf()**
 
 你可以使用 `Object.getPrototypeOf()` 來檢視某物件的原型：
 
@@ -99,7 +101,7 @@ let prototypeOfPrototypeOfName = name.__proto__.__proto__
 
 注意：雖然 `.__proto__` 看起來比較方便，我們在示範中也會使用，但這個方法已宣告未來可能會被棄用，因此在正式撰寫程式碼時，請使用 `Object.getPrototypeOf()` 來取得原型。
 
-# 補充：在 JavaScript 中任何東西的原型最後都是來自物件
+## 補充：在 JavaScript 中任何東西的原型最後都是來自物件
 
 在瞭解了原型和原型鏈的概念後，是該來面對事實的時候了——**在 JavaScript 中幾乎所有資料型別的原型最後其實都是物件**。
 
@@ -138,6 +140,6 @@ console.log(prototypeOfPrototypeOfPrototypeOfNumber)    // null
 
 從 `console.log()` 中我們也可以發現在 `prototypeOfPrototypeOfNumber` 沒有 `__proto__` 屬性了，表示這是最後一層的原型了。這也就是為什麼我們會說，**在 JavaScript 中幾乎所有的東西都是物件**，因為不論是字串、數值、布林值、陣列，甚至是函式，當我們使用 `Object.getPrototypeOf()` 去追尋它的祖宗時，你會發現都有物件的影子在內，而且也都可以使用物件的方法。
 
-# Recap
+## Recap
 
 在這個單元中提到了**原型 (prototype)** 和**原型鏈 (prototype chain)** 的概念，而且可以透過 `Object.getPrototypeOf()` 來知道在 JavaScript 中幾乎所有的東西都會繼承自物件，因此帶有可用的物件方法。在下個單元中，將進一步說明如何透過原型和原型鏈的概念，來把方法代入建構式函式中使用。
