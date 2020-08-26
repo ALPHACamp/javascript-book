@@ -1,12 +1,13 @@
 ---
 layout: default
-title: 流程控制 if else 條件判斷
+layout: default
+title: 流程控制 if else 條件判斷 - JavaScript 教學｜ALPHA Camp
 parent: JavaScript 入門核心概念
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/14039/condition_if_else.jpg
+author: ALPHA Camp
 nav_order: 6
 permalink: condition.html
 ---
-# 流程控制 if else 條件判斷
-
 # 流程控制 if/else 條件判斷
 
 認識完 JavaScript 的基本元素後，我們接下來要學習怎麼控制流程。
@@ -19,7 +20,7 @@ permalink: condition.html
 
 首先，讓我們先來學習如何利用 if / else 判斷式來進行流程控制。
 
-# 使用 if / else 進行流程控制
+## 使用 if / else 進行流程控制
 
 JavaScript 的流程控制中常常會用到 if 判斷式，一個 if 的語法的結構，除了關鍵字 `if` 、小括號 `( )`、和大括號 `{ }` 外，還有以下兩個要素：
 
@@ -28,7 +29,7 @@ JavaScript 的流程控制中常常會用到 if 判斷式，一個 if 的語法�
 
 if 可以搭配 else、else if 使用，然而在 if / else 流程控制小括號裡條件成立下，大括號的程式才會被執行；我們將透過一些範例來仔細理解這些判斷式用法。
 
-# **if … 判斷式**
+## **if … 判斷式**
 
 if 就是如果的意思，如果判斷式的結果為 `true`，則執行大括號裡的程式碼。
 
@@ -42,7 +43,7 @@ if (number < 5) {
 
 ```
 
-# **if … else … 二分法判斷式：A 或非 A**
+## **if … else … 二分法判斷式：A 或非 A**
 
 如果條件為 `true`（A），則印出：number is 5，否則就執行 `else` （非A）大括號裡的程式碼，印出 number is not 5。
 
@@ -57,7 +58,7 @@ if (number === 5) {
 
 ```
 
-# **if … else if … 判斷兩種情況：A 或 B**
+## **if … else if … 判斷兩種情況：A 或 B**
 
 需要判斷的條件若超過二種或以上，也可以使用 `else if` 來增加條件判斷。以下為範例程式碼：
 
@@ -70,7 +71,7 @@ if (number > 5) {
 
 ```
 
-# **if … else if … else 三分法判斷式：A 或 B 或「非A非B」**
+## **if … else if … else 三分法判斷式：A 或 B 或「非A非B」**
 
 使用 `if else if` 和 `else` 來組合出更多的判斷，幫助我們進行流程控制。
 
@@ -88,7 +89,7 @@ if (number > 5) {
 }
 ```
 
-# **多個 else if 參雜其中的邏輯判斷式**
+## **多個 else if 參雜其中的邏輯判斷式**
 
 也可以使用多個 `else if` 語法在 `if` 和 `else` 的中間，進行更多種情況的判斷。
 
@@ -111,7 +112,7 @@ if (number === 5) {
 
 ```
 
-# 使用 switch case 進行流程控制
+## 使用 switch case 進行流程控制
 
 當 if / else 的條件太多時，我們可以使用 case 來敘述表達一連串的條件判斷與回應。在 switch case 的結構裡有以下三個要素：
 
@@ -150,7 +151,7 @@ switch (number) {
 
 接下來，我們要認識一個特別的流程控制判斷式！
 
-# 使用三元運算子進行流程控制
+## 使用三元運算子進行流程控制
 
 我們先來看看三元運算子的語法結構，有以下兩個要素：
 
