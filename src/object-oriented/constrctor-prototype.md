@@ -1,7 +1,9 @@
 ---
 layout: default
-title: 建構式的原型：Constrctor.prototype
+title: 建構式的原型：Constrctor.prototype ｜ALPHA Camp
+description: JavaScript 教學：建構式的原型：Constrctor.prototype
 parent: JavaScript 物件導向
+author: ALPHA Camp
 nav_order: 2
 permalink: constrctor-prototype.html
 ---
@@ -26,7 +28,7 @@ function SmartPhone (name, price, features){
 }
 ```
 
-# 如果把方法寫在建構式函式中⋯⋯
+## 如果把方法寫在建構式函式中⋯⋯
 
 之前我們提到「建議不要把方法寫在 constructor 裡」，到底這樣會發生什麼事呢？如果我們直接透過 `SmartPhone` 來產生物件：
 
@@ -74,13 +76,13 @@ SmartPhone {
 
 但顯然我們不需要 3 個 method。那麼在學過原型和原型鏈的概念後，我們可以怎麼樣做來避免這個問題呢？
 
-# 將共用的方法放在原型中：Constructor.prototype
+## 將共用的方法放在原型中：Constructor.prototype
 
 ![https://assets-lighthouse.alphacamp.co/uploads/image/file/5236/ExportedContentImage_01.png](https://assets-lighthouse.alphacamp.co/uploads/image/file/5236/ExportedContentImage_01.png)
 
 之前提到，當我們呼叫某個物件的方法時，JavaScript 會透過原型鏈尋找該方法是否存在。也就是說，只需要把方法放進 constructor 的原型裡，每個物件實例就能呼叫到這個共享的方法。
 
-# **定義 SmartPhone.prototype**
+## **定義 SmartPhone.prototype**
 
 讓我們把建構式裡的 `showPhoneInfo()` 移到 `SmartPhone.prototype` 中：
 
@@ -98,7 +100,7 @@ SmartPhone.prototype.showPhoneInfo = function() {
 
 這麼做的話，會發生什麼事呢？
 
-# **再次調用 showPhoneInfo**
+## **再次調用 showPhoneInfo**
 
 讓我們再次透過 `SmartPhone` 來產生兩個物件實例：
 
@@ -119,7 +121,7 @@ alphaPhoneY.showPhoneInfo()
 
 ![https://assets-lighthouse.alphacamp.co/uploads/image/file/5237/ExportedContentImage_02.png](https://assets-lighthouse.alphacamp.co/uploads/image/file/5237/ExportedContentImage_02.png)
 
-# **觀察 proto**
+## **觀察 proto**
 
 `showPhoneInfo` 到哪裡去了呢？如果把 `__proto__` 打開來看，你會發現 `showPhoneInfo` 跑到了原型裡：
 
@@ -141,7 +143,7 @@ alphaPhoneX.__proto__ === alphaPhoneY.__proto__    // true
 
 ![https://assets-lighthouse.alphacamp.co/uploads/image/file/5239/ExportedContentImage_04.png](https://assets-lighthouse.alphacamp.co/uploads/image/file/5239/ExportedContentImage_04.png)
 
-# alphaPhoneX.constructor
+## alphaPhoneX.constructor
 
 你會發現在 `alphaPhoneX.__proto__` 裡面還有一個 `__proto__` ，讓我們再打開來看看，你會發現一個名為 constructor 的屬性：
 
@@ -159,7 +161,7 @@ alphaPhoneX.constructor === SmartPhone   // true
 console.log(alphaPhoneZ.constructor.name)      // "SmartPhone"
 ```
 
-# 動態修改 Prototype
+## 動態修改 Prototype
 
 現在你在 `SmartPhone.prototype` 裡定義好共用方法了，如果哪天想要修改原型裡的方法，你不需要回頭找到原始的程式碼再修改，只要再定義一次`SmartPhone.prototype.showPhoneInfo` 就可以了。
 
@@ -198,7 +200,7 @@ alphaPhoneX.showPhoneInfo()
 
 雖然我們在修改 `SmartPhone.prototype.showPhoneInfo` 這個方法之前就用 `new` 建立了 `alphaPhoneX` 實例，但是呼叫 `alphaPhoneX.showPhoneInfo()` 的時候，都會動態參照 `SmartPhoneInfo.protoype`，因此你一定會得到最新的 `showPhoneInfo` 的結果。
 
-# Recap
+## Recap
 
 相信看到這裡，這些新術語、新語法讓你有眼花繚亂的感受。其實沒那麼複雜，簡單來說就是：
 
