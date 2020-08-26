@@ -1,12 +1,14 @@
 ---
 layout: default
-title:  JavaScript 的前世今生
+title: JavaScript 是什麼？認識JS的起源與前世今生
+description: JavaScript 是一種能在瀏覽器裡直接執行的程式語言，和 HTML 與 CSS 並列網頁前端三大核心技術。這篇帶你認識JS的起源和演化。
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/14024/js_past_present.jpg
 nav_order: 2
-permalink: past-and-present.html
+permalink: javascript-past-and-present.html
 ---
-# JavaScript 的前世今生
+# JavaScript 是什麼？認識JS的起源與前世今生
 
-# JavaScript 是什麼？
+## JavaScript 是什麼？
 
 JavaScript 是一種能在瀏覽器裡直接執行的程式語言，和 HTML 與 CSS 並列網頁前端三大核心技術，然而，HTML 與 CSS 都不是程式語言 (programming language)，HTML 是定義內容的標籤語言 (markup language)，而 CSS 是一種頁面樣式 (style)。
 
@@ -14,7 +16,7 @@ JavaScript 是一種能在瀏覽器裡直接執行的程式語言，和 HTML 與
 
 ![https://assets-lighthouse.alphacamp.co/uploads/image/file/4552/image_1.png](https://assets-lighthouse.alphacamp.co/uploads/image/file/4552/image_1.png)
 
-# JavaScript 的起源
+## JavaScript 的起源
 
 JavaScrpit 誕生於1995年，由 Netscape 這家公司專門為其 Netscape 瀏覽器而發明的。一開始的角色是讓使用者與網頁有即時的互動效果，例如檢查表單、跳出 Alert 視窗，以及網頁特效。
 
@@ -28,13 +30,13 @@ JavaScript 誕生時，瀏覽器的世界還處於戰國時代，各家的標準
 
 在這個混亂的時期，一個叫 ECMA 的國際標準化組織致力於統一標準，他們推出的標準稱為 ECMAScript，例如 ECMAScript 第 5 版會簡稱為 ES5。1999~2010 年之間，JavaScript 通行標準得到廣泛支持，也慢慢轉變成一個成熟的程式語言。今天坊間 JavaScript 學習教材大多採用 ES5 或 ES6，ES6 又稱為 ES2015。
 
-# ECMAScript v.s. JavaScript
+## ECMAScript v.s. JavaScript
 
 ECMA International 組織訂定了語法標準，而各軟體工具採用其制訂的標準，逕行開發出各自版本的 JavaScript。因此，我們可以說 ECMAscript 是語法標準的規格書，而 JavaScript 是這份規格書的時作品。
 
 實務上，JavaScript 會因為不同的執行環境 (e.g. 不同廠牌的瀏覽器) 有不同支援程度，在運用較新發佈的語法時，需要先使用[Can I use... Support tables for HTML5, CSS3, etc](https://caniuse.com/#home)等網站查詢瀏覽器的支援度。
 
-# JavaScript 的前世今生
+## JavaScript 的前世今生
 
 JavaScript 是一個歷史悠久的語言，它在 1995 年被發明，歷經數次重大迭代，持續與時俱進，從一個網頁特效工具箱，逐漸變成一個企業級的開發語言。
 
