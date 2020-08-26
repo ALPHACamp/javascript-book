@@ -1,6 +1,8 @@
 ---
 layout: default
-title:  為什麼要學 JavaScript
+title: 為什麼要學 JavaScript
+description: JavaScript 是最普遍的程式語言，在業界工作機會方面，JavaScript 的需求相當高。後端工具 Node.js 更加成熟下，JavaScript 可以直接建立、讀取、修改和刪除電腦內的檔案，並且能和資料庫連通。
+image: https://javascript.alphacamp.co/src/why-learn-js/Untitled.png
 nav_order: 4
 permalink: why-learn-js.html
 ---
