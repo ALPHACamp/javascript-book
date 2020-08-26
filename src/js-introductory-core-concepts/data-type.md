@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Data Type 資料型別
+title: Data Type 資料型別 - JavaScript 教學｜ALPHA Camp
 parent: JavaScript 入門核心概念
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/14033/data_type.jpg
+author: ALPHA Camp
 nav_order: 2
 permalink: data-type.html
 ---
@@ -32,7 +34,7 @@ permalink: data-type.html
 
 上述中，前六個被稱為「基本型別 (primitive type)」，與物件型別做區分。
 
-# undefined
+## undefined
 
 我們來認識一下 `undefined` 。在下面的範例中，我宣告了一個變數 `myVariable`，但是沒有賦值，這時候當我們呼叫它，你會發現回傳值是 `undefined`：
 
@@ -42,13 +44,13 @@ permalink: data-type.html
 
 ![https://assets-lighthouse.alphacamp.co/uploads/image/file/6996/pasted_image_0__6_.png](https://assets-lighthouse.alphacamp.co/uploads/image/file/6996/pasted_image_0__6_.png)
 
-# 檢查資料型別
+## 檢查資料型別
 
 你可以使用 `typeof` 來檢查資料的型別，例如：
 
 ![https://assets-lighthouse.alphacamp.co/uploads/image/file/4592/image_3.png](https://assets-lighthouse.alphacamp.co/uploads/image/file/4592/image_3.png)
 
-# 型別強制轉換 (coercion)
+## 型別強制轉換 (coercion)
 
 把兩種型別放在一起時，會發生什麼事？
 
@@ -56,11 +58,11 @@ permalink: data-type.html
 
 回傳值是 `12`！JavaScript 是一個寬鬆且聰明的語言，它會自己去猜測你想要表達的意思是什麼，因此，它在執行過程中，將變數 `a` 強制轉換成字串，你可能預期回傳值是數字 `3`，卻得到了字串 `12`。
 
-# 在字串裡嵌套變數
+## 在字串裡嵌套變數
 
 現在，試著想像你在寫一個遊戲，玩家的分數儲存在 `userScore` 這個變數中，你需要印出一句話：「你這回合的分數是：XX」，有兩個方式可以做到這件事：
 
-# **方法一：使用 + 號**
+## **方法一：使用 + 號**
 
 傳統方法是使用加號 (`+`)：
 
@@ -78,7 +80,7 @@ console.log(scoreNotificationStart + userScore + scoreNotificationEnd)
 
 這行程式碼沒有問題，不過有點太長了，而且你還要注意字母之間的空白。
 
-# **方法二：Template Literals**
+## **方法二：Template Literals**
 
 ES6 提供了更簡便的方法，叫做 template literals，它代表我們想要在字串裡放入特殊指令，有了 template literals 之後，你可以將上述程式碼改寫成：
 

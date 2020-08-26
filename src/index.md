@@ -1,6 +1,9 @@
 ---
 layout: default
-title:  JavaScript 入門指南
+title: JavaScript 教學：給新手的入門指南
+description: JavaScript 教學入門指南，帶你從認識最廣泛被使用的網頁開發程式語言 JavaScript 開始，了解 JS 能做到什麼，學習入門的核心概念。
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/14023/javascript_guide_image.jpg
+author: ALPHA Camp
 nav_order: 1
 permalink: /
 ---

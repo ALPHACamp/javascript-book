@@ -1,6 +1,8 @@
 ---
 layout: default
-title:  JavaScript 免費自學資源
+title: JavaScript 自學免費資源
+description: 若你想要線上自學 JavaScript，ALPHA Camp 幫你整理了一些線上免費自學的資源
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/14026/js-self-learn-resource.jpg
 nav_order: 5
 permalink: js-free-self-study-resources.html
 ---

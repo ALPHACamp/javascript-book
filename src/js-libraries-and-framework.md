@@ -1,6 +1,8 @@
 ---
 layout: default
-title:  JavaScript 框架與函式庫
+title: JavaScript 框架與函式庫
+description: 分享常見的JavaScript 框架與函式庫，像是jQuery, React.js, Node.js, angular, express.js
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/14027/js_framework.jpg
 nav_order: 9
 permalink: js-libraries-and-framework.html
 ---

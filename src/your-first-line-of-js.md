@@ -1,6 +1,8 @@
 ---
 layout: default
-title:  寫下你的第一行 Javascript 程式碼：Repl.it
+title: 寫下你的第一行 Javascript 程式碼：Repl.it
+description: 這邊介紹Repl.it讓你直接在線上寫程式碼，免除了環境安裝的繁雜步驟，先專注於新語言的練習、熟悉，同時透過線上編輯器的即時預覽功能，讓我們更能觀察指令的變化。非常適合作為初學階段的工具夥伴！
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/8638/ExportedContentImage_01.png
 nav_order: 6
 permalink: your-first-line-of-js.html
 ---
@@ -12,7 +14,7 @@ permalink: your-first-line-of-js.html
 
 這些工具性軟體的集合，我們統稱為「開發環境」。
 
-# 什麼是整合開發環境？
+## 什麼是整合開發環境？
 
 整合開發環境（Integrated Development Environment，簡稱 IDE，也有人稱為 Interactive Development Environment）指的其實就是一種程式開發的輔助軟體，集前述的工具軟體於一身，能讓使用者在一個集大成的開發環境下，使用友善的圖形介面進行撰寫、編譯、測試等。
 
@@ -22,11 +24,11 @@ permalink: your-first-line-of-js.html
 
 直接在線上寫程式碼，免除了環境安裝的繁雜步驟，先專注於新語言的練習、熟悉，同時透過線上編輯器的即時預覽功能，讓我們更能觀察指令的變化。非常適合作為初學階段的工具夥伴！
 
-# 註冊 Repl.it
+## 註冊 Repl.it
 
 請先到 [https://repl.it](https://repl.it/) 註冊。有了正式帳號以後，將能和其他人分享自己編寫的程式，其他人也能檢視你的程式碼、留下評語，或是將你的程式碼複製（fork）後，改寫成自己想要的版本。
 
-# 建立一個新的 Repl.it
+## 建立一個新的 Repl.it
 
 請找到選單列上的「+ new repl」按鈕，接下來會跳出視窗，讓你可以選擇程式語言，搜尋 JavaScript 之後，按下「Create repl」按鈕。
 
@@ -40,7 +42,7 @@ permalink: your-first-line-of-js.html
 
 Console 譯為「主控臺」，它的作用是讓開發人員能觀察系統的內部訊息，或者透過指令直接操作系統。我們可以在這裡即時測試 JavaScript 程式碼。
 
-# 撰寫程式，輸出結果到 Console
+## 撰寫程式，輸出結果到 Console
 
 請在編輯區域複製貼上這段程式碼：
 

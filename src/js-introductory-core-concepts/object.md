@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Object 物件
+title: Object 物件 - JavaScript 教學｜ALPHA Camp
 parent: JavaScript 入門核心概念
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/14035/object.jpg
+author: ALPHA Camp
 nav_order: 5
 permalink: object.html
 ---
-# Object 物件
-
 # Object 物件
 
 不同於陣列是一個有序列的清單，物件是 key-value pairs 的集合。操作物件時，你需要知道 key。
@@ -15,7 +15,7 @@ permalink: object.html
 
 JavaScript 的物件是一個博大精深的學習主題，在這個單元裡，我們會先把學習範圍縮限在物件的基礎操作上，也就是存取資料。
 
-# 宣告物件
+## 宣告物件
 
 你可以使用大括號 `{}` 來宣告物件，基礎的語法會是 `{key: value}`，這種寫法叫物件實字 (object literal)。
 
@@ -32,7 +32,7 @@ let flashcardEntry = {
 
 當我們想用人類語言描述這個物件時，我們會說 `flashcardEntry` 有 `word`、`pronunciation`、`meaning`、`attempts` 等屬性 (property)；而 `flashcardEntry` 的 `word` 屬性的值是 `'薄'`。
 
-# 讀取物件內容
+## 讀取物件內容
 
 你需要透過 key 來存取物件的屬性，在寫法上有兩種方式：
 
@@ -68,7 +68,7 @@ let flashcardEntry = {
 }
 ```
 
-# 更新物件內容
+## 更新物件內容
 
 回到我們的情境，這個正在學習中文的老外忽然發現「薄」這個字也有 flimsy (易壞) 的意思，他想要把這個資訊新增到字卡的 `meaning` 屬性裡。所以他重新使用 `=` 指派了 `flashcardEntry['meaning']` 的值：
 
@@ -89,7 +89,7 @@ flashcardEntry['attempts']++
 
 但 `++` 運算子是最優雅的方法。
 
-# 追加物件屬性
+## 追加物件屬性
 
 現在，我需要更新這個 APP，讓他能紀錄 `owner`，這很簡單，你只要用同樣的方式寫入內容就好了：
 
