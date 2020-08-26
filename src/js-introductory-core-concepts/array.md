@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Array 陣列
+title: Array 陣列 - JavaScript 教學｜ALPHA Camp
 parent: JavaScript 入門核心概念
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/14030/javascript_array.jpg
+author: ALPHA Camp
 nav_order: 4
 permalink: array.html
 ---
@@ -35,7 +37,7 @@ permalink: array.html
 
 ![https://assets-lighthouse.alphacamp.co/uploads/image/file/8669/ExportedContentImage_00.png](https://assets-lighthouse.alphacamp.co/uploads/image/file/8669/ExportedContentImage_00.png)
 
-# 宣告陣列
+## 宣告陣列
 
 在宣告陣列時，透過中括號 ``，將每個位置的內容物放入中括號 `` 內，並用逗號 `,` 隔開，而陣列內的內容可以是數值、字串或者另一個物件。
 
@@ -43,7 +45,7 @@ permalink: array.html
 let myFriends = ['派大星', '章魚哥', '小蝸', '蟹老闆', '珊迪']
 ```
 
-# 取出陣列的內容
+## 取出陣列的內容
 
 你需要利用 index 來取出陣列的內容，取值的方式是在陣列名稱後加上中括號 `` 和索引數字。
 
