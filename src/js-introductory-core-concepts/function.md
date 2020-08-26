@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Function 函式
+title: Function 函式 - JavaScript 教學｜ALPHA Camp
 parent: JavaScript 入門核心概念
+image: https://assets-lighthouse.alphacamp.co/uploads/image/file/14041/function.jpg
+author: ALPHA Camp
 nav_order: 8
 permalink: function.html
 ---
@@ -21,13 +23,13 @@ JavaScript 的函式是一個非常重要的學習主題，大部分的程式語
 
 接下來我們將依序討論這些主題。
 
-# 基本結構
+## 基本結構
 
 以下是一個函式的基本寫法：
 
 ![https://assets-lighthouse.alphacamp.co/uploads/image/file/9366/ExportedContentImage_00.png](https://assets-lighthouse.alphacamp.co/uploads/image/file/9366/ExportedContentImage_00.png)
 
-# 調用 (invoke) 函式
+## 調用 (invoke) 函式
 
 當我們想使用函式時，會「調用 (invoke)」函式，形式如下：
 
@@ -43,7 +45,7 @@ subtotal(3, 8)
 
 當你使用 `subtotal(3, 8)` 調用函式時，`3, 8` 被稱為「引數 (argument)」。引數 `3, 8` 會為 `price, quantity` 等參數賦值。
 
-# 括號的意義：執行函式
+## 括號的意義：執行函式
 
 函式不一定需要傳入參數：
 
@@ -71,7 +73,7 @@ console.log(multiply(10, 3))  // 30
 
 有預設值的參數請放在後面，這樣才能優先傳入必須要指定的參數。
 
-# 回傳值 (return value)
+## 回傳值 (return value)
 
 所有的函式都有回傳值，回傳值可以用關鍵字 `return` 來指定：
 
@@ -81,7 +83,7 @@ console.log(multiply(10, 3))  // 30
 
 ![https://assets-lighthouse.alphacamp.co/uploads/image/file/9369/ExportedContentImage_03.png](https://assets-lighthouse.alphacamp.co/uploads/image/file/9369/ExportedContentImage_03.png)
 
-# 用函式封裝程式碼
+## 用函式封裝程式碼
 
 函式最重要的功能之一是封裝程式碼，把具有特定功能的程式碼移出主程式，另外獨立管理。
 
