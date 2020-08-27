@@ -37,7 +37,7 @@ search_enabled: false
 aux_links:
   "Source Code on GitHub":
     - "https://github.com/alphacamp/javascript-book"
-footer_content: "Copyright &copy; 2020 ALPHACamp."
+footer_content: '<a href="https://tw.alphacamp.co/">ALPHA Camp</a>｜創新職涯的線上學校<br>我們的使命是透過線上科技教育，幫助人們建立在數位時代自我實現所需的技能、思維以及社群。<br>Copyright &copy; 2020 ALPHACamp.'
 
 plugins:
   - jekyll-feed
