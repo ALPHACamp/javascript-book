@@ -15,7 +15,7 @@ JavaScript 是最廣泛被使用的網頁開發程式語言，這篇入門指南
 
 ---
 
-[JavaScript 的前世今生](past-and-present.html)
+[JavaScript 的前世今生](javascript-past-and-present.html)
 
 ## JavaScript 可以做什麼
 
