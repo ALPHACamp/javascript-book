@@ -43,6 +43,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gzip
+  - jekyll-seo-tag
 
 gzip:
   extensions:
