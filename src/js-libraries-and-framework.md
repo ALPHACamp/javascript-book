@@ -13,5 +13,5 @@ permalink: js-libraries-and-framework.html
 - [React.js](https://www.taniarascia.com/getting-started-with-react/)
 - [Angular](https://angular.tw/guide/ajs-quick-reference)
 - [Express.js](https://lighthouse.alphacamp.co/courses/23/units/3969)
-- [Vue.js](https://cn.vuejs.org/v2/guide/)
+- [Vue.js](https://v2.cn.vuejs.org/)
 - Angular.js
